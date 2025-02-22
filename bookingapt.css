@@ -1,0 +1,239 @@
+.calendar-icon{
+   width: 18px;
+   height: 20px;
+}
+
+.time-icon{
+    width: 18px;
+    height: 20px;
+}
+
+.booking-summary-container{
+    width: 804px;
+    height: 528px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.booking-button{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    background: rgba(54, 192, 129, 0.15);
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    gap: 8px;
+}
+
+.booking-button::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #36C081;
+    border-radius: 50%;
+}
+
+.booking-summary-header{
+   display: flex;
+   font-size: 24px;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 5px;
+}
+
+.booking-summary-header-text-one{
+    font-size: 32px;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+.booking-summary-header-text-two{
+    font-size: 20px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+}
+
+.booking-summary-information-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.booking-summary-date{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background: #f9fafb;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #00899A;
+    gap: 10px;
+    height: 50px;
+}
+
+.booking-summary-label-header{
+    display: block;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.booking-summary-label-value{
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.booking-summary-time{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background: #f9fafb;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #00899A;
+    gap: 10px;
+    height: 50px;
+}
+
+.booking-summary-time-start{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background: #f9fafb;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #00899A;
+    gap: 10px;
+    height: 50px;
+}
+
+.booking-summary-time-end{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background: #f9fafb;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #00899A;
+    gap: 10px;
+    height: 50px;
+}
+
+.booking-summary-indicator{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    background: #4C79D3;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.booking-summary-card{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+/*Card circle*/
+.booking-summary-card::before{
+    width: 50px;
+    height: 50px;
+    background: no-repeat center center/cover;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.booking-summary-card-name{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 400px;
+    color: #333333;
+}
+
+.booking-summary-card-job{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 400px;
+    color: #333333;
+    background: #f9f9f9;
+    border: 1px solid #00899A;
+    border-radius: 5px;
+    padding: 5px 9px;
+    gap: 5px;
+}
+
+.booking-summary-status{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 400px;
+    background: rgba(76, 121, 211, 0.15); 
+    color: black;
+    padding: 6px 12px;
+    border-radius: 15px;
+    gap: 6px;
+    margin-left: auto;
+}
+
+/*Circle*/
+.booking-summary-status::before{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #4C79D3;
+    border-radius: 50%;
+}
+
+.booking-summary-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: 500px;
+}
+
+.booking-summary-buttons-cancel{
+    background-color: white;
+    color: #00899A;
+    border: 1px solid #00899A;
+    white-space: nowrap;
+    min-width: 150px;
+	min-height: 20px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.booking-summary-buttons-book{
+    background-color: #00899A;
+    color: white;
+    white-space: nowrap;
+    min-width: 150px;
+	min-height: 20px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
